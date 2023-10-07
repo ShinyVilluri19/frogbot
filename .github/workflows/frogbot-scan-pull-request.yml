@@ -54,11 +54,11 @@ jobs:
 
           # [Mandatory if JF_SMTP_SERVER is set]
           # The username required for authenticating with the SMTP server.
-          JF_SMTP_USER: ${{ secrets.JF_SMTP_USER }}
+          #JF_SMTP_USER: ${{ secrets.JF_SMTP_USER }}
 
           # [Mandatory if JF_SMTP_SERVER is set]
           # The password associated with the username required for authentication with the SMTP server.
-          JF_SMTP_PASSWORD: ${{ secrets.JF_SMTP_PASSWORD }}
+          #JF_SMTP_PASSWORD: ${{ secrets.JF_SMTP_PASSWORD }}
 
           # [Optional]
           # List of comma separated email addresses to receive email notifications about secrets
